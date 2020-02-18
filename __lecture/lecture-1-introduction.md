@@ -87,7 +87,7 @@ It contains all the names of all the modules needed for the project.
 
 You want your friend to cook a specific meal. So you send him the recipe.
 
-##### What about the ingredients? You can either 
+##### What about the ingredients? You can either
 
 - ship him/her all of the ingredients
 - give him a list of ingredients and leave it to him/her to get them himself.
