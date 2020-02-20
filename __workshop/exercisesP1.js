@@ -1,4 +1,3 @@
-
 // Getting familiar with EJS and the project folder/file structure.
 
 // Question 1
@@ -51,8 +50,8 @@ const q3 = (req, res) => {
 // -----------------------------------------------
 const q4 = (req, res) => {
   const popularGirlNames = ["Olivia", "Ruby", "Emily", "Grace", "Jessica"];
-  let girlnames = popularGirlNames.slice(0, 3);
-  res.render("pages/question4", { name: girlnames });
+  //let girlnames = popularGirlNames.slice(0, 3);
+  res.render("pages/question4", { name: popularGirlNames });
 };
 // -----------------------------------------------
 
@@ -61,7 +60,7 @@ const q4 = (req, res) => {
 const q5 = (req, res) => {
   const popularGirlNames = ["Olivia", "Ruby", "Emily", "Grace", "Jessica"];
 
-  res.render("pages/question5", { popularGirlNames: popularGirlNames});
+  res.render("pages/question5", { popularGirlNames: popularGirlNames });
 };
 // -----------------------------------------------
 
