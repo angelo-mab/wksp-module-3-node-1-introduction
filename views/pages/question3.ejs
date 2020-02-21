@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <head>
-    <title>Node: Workshop 1</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <title>Node: Workshop 1</title>
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Node: Workshop 1</h1>
-    </header>
-    <div class='main'>
-        <h2>Part 1</h2>
-        <div class='content'>
-            <%- include('../partials/questions/3') %>
-            <div class='box answer'>
-                <h3>Answer</h3>
-                <!-- render answer here -->
-                
-            </div>
-        </div>
+  <header>
+    <h1>Node: Workshop 1</h1>
+  </header>
+  <div class="main">
+    <h2>Part 1</h2>
+    <div class="content">
+      <%- include('../partials/questions/3') %>
+      <div class="box answer">
+        <h3>Answer</h3>
+        <!-- render answer here -->
+        <p><%= homer.name %></p>
+        <p><%= homer.dob %></p>
+        <p><%= homer.profession %></p>
+        <p><%= homer.favoriteFood %></p>
+        <p><%= homer.favoriteBeverage %></p>
+        <img
+          src="<%= homer.imageURL %>"
+          alt="<%= homer.name %>"
+          style="max-height: 140px;"
+        qqq/>
+      </div>
     </div>
+  </div>
 </body>
