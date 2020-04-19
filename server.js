@@ -9,9 +9,10 @@ const morgan = require("morgan");
 // We need to "require" the files whose content we reference in this file.
 const exercisesP1 = require("./__workshop/exercisesP1");
 
-const PORT = 8000;
+const PORT = 8001;
 const homepage = (req, res) => res.render("pages/homepage");
 const four0hfour = (req, res) => res.render("pages/four0hfour");
+
 const q6 = (req, res) => res.render("pages/question6");
 const q7 = (req, res) => res.render("pages/question7");
 const q8 = (req, res) => res.render("pages/question8");
